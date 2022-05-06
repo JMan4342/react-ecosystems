@@ -1,4 +1,5 @@
 import React from "react";
+import "./TodoListItem.css";
 
 const TodoListItem = ({ todo }) => (
   <div className="todo-item-container">
@@ -10,4 +11,4 @@ const TodoListItem = ({ todo }) => (
   </div>
 );
 
-export default TodoListItem
+export default TodoListItem;
