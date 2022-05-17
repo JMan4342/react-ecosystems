@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
+import styled from "styled-components";
 import TodoListItem from "./TodoListItem";
 import NewTodoForm from "./NewTodoForm";
 import {
-  getTodos,
   getTodosLoading,
   getCompletedTodos,
   getIncompleteTodos,
